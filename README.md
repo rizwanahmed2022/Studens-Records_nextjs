@@ -37,7 +37,3 @@ This is a small practice project built using **Next.js** and **JavaScript**. The
 ## **Disclaimer**
 
 This project is for practice purposes and does not include persistent data storage. All records are temporary and exist only during the browser session.
-
----
-
-Feel free to use or modify this as needed! Let me know if you'd like further assistance! 🚀

@@ -127,8 +127,8 @@ export default function Home() {
       event.preventDefault();
 
       let trackingi =document.getElementById("track");
-      trackingi.innerHTML="#Tracking ID: "+numm;
       numm = numm+1
+      trackingi.innerHTML="#Tracking ID: "+numm;
     }
   }
 
@@ -352,12 +352,12 @@ export default function Home() {
                   name="searchbar"
                   id="searchbar"
                   placeholder="Search by Tracking ID"
-                  className="md:ml-7 flex border-2 border-gray-300 outline-none p-2 h-1/2 py-3 text-black rounded-lg w-full md:w-full"
+                  className="md:ml-7 flex border-2 border-gray-300 outline-none p-2 h-1/2 py-3 text-black rounded-lg w-full md:w-full  focus:shadow-2xl"
                 />
 
                 <i
                   onClick={search}
-                  className="bi bi-search rounded-sm text-gray-500  text-[25px] py-1 outline-none ml-3 h-auto px-6 bg-gray-300  active:bg-gray-700 hover:bg-gray-400"
+                  className="bi bi-search rounded-sm text-gray-500  text-[25px] py-1 outline-none ml-3 h-auto px-6 bg-gray-300  active:bg-gray-700 hover:bg-gray-400 mr-4"
                 ></i>
               </div>
             </div>

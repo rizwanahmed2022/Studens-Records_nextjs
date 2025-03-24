@@ -213,7 +213,7 @@ transition-duration: 0.2s;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(1, 165, 1, 0.566);
+    background-color: rgb(102, 170, 106);
 
     transition: height 0.5s ease-in-out; /* Smooth height change */
   border-bottom-right-radius: 100%;
@@ -248,7 +248,7 @@ transition-duration: 0.2s;
 width: 30%;
 height: 30%;
     
-    background-color: rgba(1, 165, 1, 0.566);
+    background-color: rgba(165, 1, 1, 0.566);
     transition: height 0.5s ease-in-out; /* Smooth height change */
   border-bottom-left-radius: 100%;
   z-index: -1;
